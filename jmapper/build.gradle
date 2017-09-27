@@ -1,0 +1,71 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.jfrog.bintray'
+//apply plugin: "com.github.dcendents.android-maven"
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile 'com.squareup.okhttp3:okhttp-ws:3.4.1'
+}
+//group = 'com.github.g55p.jmapper'
+//version = '1.0.0'
+//
+//task generateSourcesJar(type: Jar) {
+//    from android.sourceSets.main.java.srcDirs
+//    classifier 'sources'
+//}
+//
+//task generateJavaDocs(type: Javadoc) {
+//    source = android.sourceSets.main.java.srcDirs
+//    classpath += project.files(android.getBootClasspath()
+//            .join(File.pathSeparator))
+//}
+//
+//task generateJavaDocsJar(type: Jar) {
+//    from generateJavaDocs.destinationDir
+//    classifier 'javadoc'
+//}
+//generateJavaDocsJar.dependsOn generateJavaDocs
+//
+//bintray {
+//    user = 'hss96'
+//    key = ''
+//    pkg {
+//        repo = 'maven'
+//        userOrg = 'g55p'
+//        name = 'com.github.g55p.jmapper'
+//
+//        version {
+//            name = '1.0.0'
+//            desc = 'an android library to map JSON'
+//            released = new Date()
+//            vcsTag = '1.0.0'
+//        }
+//
+//        licenses = ['Apache-2.0']
+//        vcsUrl = 'https://github.com/g55p/jmapper.git'
+//        websiteUrl = 'https://github.com/g55p/jmapper'
+//    }
+//    configurations = ['archives']
+//}
+//
+//artifacts {
+//    archives generateJavaDocsJar
+//    archives generateSourcesJar
+//}
