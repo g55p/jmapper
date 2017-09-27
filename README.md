@@ -68,6 +68,7 @@ To get JSON from URL:
 ```
 <br/>
 To add this library using gradle:
+<br/>
 
 ```groovy
 compile 'com.github.g55p.jmapper:jmapper:1.0.0'
