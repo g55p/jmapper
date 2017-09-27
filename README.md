@@ -2,7 +2,7 @@
 <br/>
 <b>How it works</b>
 <br/>
-As a summary of this library, we can say that assume a class which includes some fields which be <b>public</b> and also we've declared an annotation above of them.
+As a summary of this library, we can say that assume a class which includes some fields which be <b>public</b> and also we've declared an annotation above of each of them.
 <br/>
 as an example:
 
