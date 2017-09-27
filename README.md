@@ -54,7 +54,7 @@ used JSON for this example:
 
 JMapper sets field value according to its annotation value. for example it sets value of id in JSON to id (INT).<br/>
 To get JSON from URL:
-```
+```java
      JMapper.getInstance().mapJSON("https://benighted.000webhostapp.com/jmapper/test.json", Student.class, new JMapper.IOnJSONLoaded() {
             @Override
             public void onLoad(ArrayList<Object> arrayList) {
