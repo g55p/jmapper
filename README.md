@@ -27,43 +27,25 @@ used JSON for this example:
 ```json
 [
 {
-id: 1,
-name: "John",
-lastName: "branic",
-age: 22,
-scores: [
-{
-date: "2.2.2005",
-score: 14
-},
-{
-date: "2.2.2005",
-score: 15
-},
-{
-date: "2.2.2005",
-score: 16
-}
+"id":1,
+"name":"John",
+"lastName":"branic",
+"age":22,
+"scores":[
+{"date":"2.2.2005","score":14}
+,{"date":"2.2.2005","score":15}
+,{"date":"2.2.2005","score":16}
 ]
 },
 {
-id: 2,
-name: "eric",
-lastName: "branic",
-age: 23,
-scores: [
-{
-date: "2.2.2005",
-score: 12
-},
-{
-date: "2.2.2005",
-score: 3
-},
-{
-date: "2.2.2005",
-score: 18
-}
+"id":2,
+"name":"eric",
+"lastName":"branic",
+"age":23,
+"scores":[
+{"date":"2.2.2005","score":12}
+,{"date":"2.2.2005","score":3}
+,{"date":"2.2.2005","score":18}
 ]
 }
 ]
