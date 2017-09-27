@@ -73,5 +73,10 @@ To add this library using gradle:
 ```groovy
 compile 'com.github.g55p.jmapper:jmapper:1.0.0'
 ```
+<br/>
+in your AndroidManifest.xml
 
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
 
