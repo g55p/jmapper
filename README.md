@@ -2,8 +2,8 @@
 <br/>
 <b>How it works</b>
 <br/>
-As a summary of this library, we can say that assume a class which includes some fields which be PUBLIC and also we've decraled an anotattion 
-above of them.<br/>
+As a summary of this library, we can say that assume a class which includes some fields which be PUBLIC and also we've declared an annotation above of them.
+<br/>
 as an example:
 
 ```
