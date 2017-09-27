@@ -17,7 +17,7 @@ public class Student {
     @JSONKey("age")
     public int age;
     @JSONKey("scores")
-    public ArrayList<Score> scores;
+    public ArrayList<Score> scores; //This is used to map JSON Array in a JSON Object
 }
 ```
 <br/>
