@@ -6,7 +6,7 @@ As a summary of this library, we can say that assume a class which includes some
 <br/>
 as an example:
 
-```
+```java
 public class Student {
     @JSONKey("id")
     public int id;
@@ -20,6 +20,55 @@ public class Student {
     public ArrayList<Score> scores;
 }
 ```
+<br/>
+used JSON for this example:
+<br/>
+
+```json
+[
+{
+id: 1,
+name: "John",
+lastName: "branic",
+age: 22,
+scores: [
+{
+date: "2.2.2005",
+score: 14
+},
+{
+date: "2.2.2005",
+score: 15
+},
+{
+date: "2.2.2005",
+score: 16
+}
+]
+},
+{
+id: 2,
+name: "eric",
+lastName: "branic",
+age: 23,
+scores: [
+{
+date: "2.2.2005",
+score: 12
+},
+{
+date: "2.2.2005",
+score: 3
+},
+{
+date: "2.2.2005",
+score: 18
+}
+]
+}
+]
+```
+
 
 JMapper sets field value according to its annotation value. for example it sets value of id in JSON to id (INT).<br/>
 To get JSON from URL:
@@ -38,7 +87,7 @@ To get JSON from URL:
 <br/>
 To add this library using gradle:
 
-```
+```groovy
 compile 'com.github.g55p.jmapper:jmapper:1.0.0'
 ```
 
